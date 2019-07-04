@@ -33,4 +33,28 @@ class HomeController extends AbstractController
 		return new Response($id);
 	}
 
+	/**
+	 * @Route("/contact", name="contact")
+	 */
+	public function contact()
+	{
+		// j'imagine qu'un formulaire a été submit
+		// par le client
+
+		// et ensuite je redirige vers une autre page (idéalement
+		// une page qui affiche un message de confirmation)
+		return $this->redirectToRoute('home_index');
+	}
+
+	/**
+	 * @Route("/twig", name="twig")
+	 */
+	public function twigBasic()
+	{
+		// réponse http valide
+		// qui appelle un fichier twig
+		// et affiche son contenu (HTML)
+		return $this->render("basic.html.twig");
+	}
+
 }
