@@ -17,6 +17,8 @@
                 <p>{{ article.contenu }}</p>
                 <img src="{{ article.image }}" alt="">
             {% endfor %}
+        {% else %}
+            <p>tu n'as pas le droit</p>
         {% endif %}
 
     </main>

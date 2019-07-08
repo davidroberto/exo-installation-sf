@@ -111,9 +111,11 @@ class HomeController extends AbstractController
 	 */
 	public function articlesList(Request $request)
 	{
+
 		// je récupère le parametre get "age", c'est à dire la valeur de la variable d'url "age"
 		// je stocke la valeur de l'age dans une variable
 		$age = $request->query->get('age');
+
 
 		// je créé un array multidimensionnel, qui contient 4 articles
 		// avec pour chacun un titre, un contenu et une image
@@ -152,6 +154,15 @@ class HomeController extends AbstractController
 	}
 
 
+	/**
+	 * @Route("/linktwig", name="link_twig")
+	 *
+	 * créé une page pour utiliser la fonction path et la fonction link
+	 */
+	public function linkTwig()
+	{
+		return $this->render("linkTwig.html.twig");
+	}
 
 
 }
