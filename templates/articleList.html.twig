@@ -3,6 +3,7 @@
         {% for id, article in articles %}
             <article class="article">
                 <h1>{{ article.title }}</h1>
+                <img src="{{ asset('assets/img/'~id) }}.png" alt="">
                 <p class="content">{{ article.content }}</p>
                 <img class="image" src="{{ article.image }}" alt="">
                 <a href="{{ path('single_article', {'id': id}) }}">Voir plus</a>

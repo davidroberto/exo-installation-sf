@@ -1,0 +1,36 @@
+{% extends 'exo-final-twig/base.html.twig' %}
+
+{% block content %}
+
+    <section class="list-content">
+        {% for id, profil in lastProfiles %}
+            <article class="list-profil">
+                <h3 class="profil-name">{{ profil.name }}</h3>
+                <p class="profil-shortname">{{ profil.shortname }}</p>
+                <p class="profil-reknown">{{ profil.reknown }}</p>
+                <p class="profil-bio">{{ profil.bio }}</p>
+                <a href="{{ path('single_exo_final_twig', {'id': id}) }}">Voir plus</a>
+            </article>
+        {% endfor %}
+    </section>
+
+    <h2 class="title-exo-article">Les derniers articles</h2>
+
+    <article class="exo-article">
+        <img class="exo-article-img" src="{{ asset('assets/img/black_hole_resize_md.jpg') }}" alt="">
+        <h4 class="exo-article-titre">Titre de mon article</h4>
+        <p class="exo-article-extrait">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam, dignissimos eum, expedita in iure optio porro praesentium quasi quibusdam sapiente ut voluptate? Illum iusto laboriosam praesentium quis repudiandae voluptatibus!</p>
+    </article>
+
+    <article class="exo-article">
+        <img class="exo-article-img" src="{{ asset('assets/img/black_hole_resize_md.jpg') }}" alt="">
+        <h4 class="exo-article-titre">Titre de mon article</h4>
+        <p class="exo-article-extrait">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam, dignissimos eum, expedita in iure optio porro praesentium quasi quibusdam sapiente ut voluptate? Illum iusto laboriosam praesentium quis repudiandae voluptatibus!</p>
+    </article>
+
+    <article class="exo-article">
+        <img class="exo-article-img" src="{{ asset('assets/img/black_hole_resize_md.jpg') }}" alt="">
+        <h4 class="exo-article-titre">Titre de mon article</h4>
+        <p class="exo-article-extrait">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam, dignissimos eum, expedita in iure optio porro praesentium quasi quibusdam sapiente ut voluptate? Illum iusto laboriosam praesentium quis repudiandae voluptatibus!</p>
+    </article>
+{% endblock %}

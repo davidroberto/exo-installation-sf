@@ -1,11 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
-.article {
-    width: 33%;
+* {
+    box-sizing: border-box;
+}
+
+.exo-img-header {
+    width: 100px;
+    margin-left: 10%;
     float: left;
 }
 
-.image {
+.exo-punchline {
+    float: right;
+    margin-right: 10%;
+}
+
+.aside {
+    clear: both;
+}
+
+.header {
+    background-color: lightblue;
+    border-bottom: 1px solid lightgray;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100px;
+}
+
+.aside {
+    position: fixed;
+    left: 0;
+    background-color: #7eea12;
+    width: 20%;
+    padding: 20px;
+    height: calc(100vh - 100px);
+    top: 100px;
+}
+
+.main {
+    margin-left: 20%;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.exo-item-menu {
+    margin-bottom: 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.exo-img-footer {
+    height: 80%;
+}
+
+
+.main {
+    margin-top: 100px;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+
+.profil {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.profil-name {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profil-shortname, .profil-reknown {
+    margin-bottom: 10px;
+}
+
+.list-profil {
+    float: left;
+    width: 50%;
+    margin: 0;
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
     height: 300px;
+}
+
+.list-content {
+    margin-bottom: 100px;
+    overflow: auto;
+}
+
+.form {
+    text-align: center;
+}
+
+.form-item {
+    margin-bottom: 20px;
+}
+
+.form-submit {
+    width: 100px;
+    padding:10px;
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+
+.title-exo-article {
+    text-align: center;
+    padding: 10px;
+    background-color: lightcoral;
+    color: white;
+    font-size: 20px;
+}
+
+.exo-article {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 150px;
+}
+
+.exo-article-img {
+    width: 100%;
 }

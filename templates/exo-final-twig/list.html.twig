@@ -1,0 +1,17 @@
+{% extends 'exo-final-twig/base.html.twig' %}
+
+{% block content %}
+
+    <section class="list-content">
+        {% for id, profil in profils %}
+            <article class="list-profil">
+                <h3 class="profil-name">{{ profil.name }}</h3>
+                <p class="profil-shortname">{{ profil.shortname }}</p>
+                <p class="profil-reknown">{{ profil.reknown }}</p>
+                <p class="profil-bio">{{ profil.bio }}</p>
+                <a href="{{ path('single_exo_final_twig', {'id': id}) }}">Voir plus</a>
+            </article>
+        {% endfor %}
+    </section>
+
+{% endblock %}

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dc62bf7-4fa4-40ba-8102-9871d95e83ce" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/base.html.twig" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/support-cours/support-cours.pdf" afterPath="$PROJECT_DIR$/support-cours/support-cours.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/style.css" afterPath="$PROJECT_DIR$/public/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/articleList.html.twig" afterPath="$PROJECT_DIR$/templates/articleList.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/article_show.html.twig" afterPath="$PROJECT_DIR$/templates/article_show.html.twig" />
@@ -34,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="article_show.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/article_show.html.twig">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="479">
+              <caret line="186" column="1" lean-forward="true" selection-start-line="186" selection-start-column="1" selection-end-line="186" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -63,13 +63,19 @@
         <option value="$PROJECT_DIR$/templates/article.html.twig" />
         <option value="$PROJECT_DIR$/templates/age_check.html.twig" />
         <option value="$PROJECT_DIR$/templates/linkTwig.html.twig" />
-        <option value="$PROJECT_DIR$/public/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/src/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/templates/base/_footer.html.twig" />
-        <option value="$PROJECT_DIR$/templates/articleList.html.twig" />
+        <option value="$PROJECT_DIR$/templates/article_show.html.twig" />
         <option value="$PROJECT_DIR$/templates/base/_header.html.twig" />
         <option value="$PROJECT_DIR$/templates/base/base.html.twig" />
-        <option value="$PROJECT_DIR$/templates/article_show.html.twig" />
+        <option value="$PROJECT_DIR$/templates/articleList.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/ExoFinalTwig.php" />
+        <option value="$PROJECT_DIR$/templates/exo-final-twig/base.html.twig" />
+        <option value="$PROJECT_DIR$/templates/exo-final-twig/single.html.twig" />
+        <option value="$PROJECT_DIR$/templates/exo-final-twig/list.html.twig" />
+        <option value="$PROJECT_DIR$/templates/exo-final-twig/contact.html.twig" />
+        <option value="$PROJECT_DIR$/templates/exo-final-twig/home.html.twig" />
+        <option value="$PROJECT_DIR$/public/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -172,12 +178,90 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="674" />
+    <option name="x" value="446" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="732" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AnnotationPHP</id>
+          </State>
+          <State>
+            <id>Code SmellPHP</id>
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>Control FlowPHP</id>
+          </State>
+          <State>
+            <id>DocBlocksJoomla!</id>
+          </State>
+          <State>
+            <id>GeneralPHP</id>
+          </State>
+          <State>
+            <id>Joomla!</id>
+          </State>
+          <State>
+            <id>Naming conventionsPHP</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>PHP Strict StandardsPHP</id>
+          </State>
+          <State>
+            <id>PHPDocPHP</id>
+          </State>
+          <State>
+            <id>Phing</id>
+          </State>
+          <State>
+            <id>Probable bugsPHP</id>
+          </State>
+          <State>
+            <id>Replaceable assignmentsPHP</id>
+          </State>
+          <State>
+            <id>ServiceSymfony</id>
+          </State>
+          <State>
+            <id>Symfony</id>
+          </State>
+          <State>
+            <id>TranslationSymfony</id>
+          </State>
+          <State>
+            <id>Type compatibilityPHP</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+          <State>
+            <id>UnusedPHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpCSValidationInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -193,7 +277,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -235,7 +318,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
+              <option name="myItemId" value="exo-final-twig" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -303,12 +386,35 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cours-archi-sf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cours-archi-sf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,10 +422,12 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/support-cours" />
+      <recent name="$PROJECT_DIR$/public/assets/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -419,12 +527,15 @@
       <workItem from="1562338802623" duration="1851000" />
       <workItem from="1562573776671" duration="5594000" />
       <workItem from="1562672906276" duration="4682000" />
-      <workItem from="1562758828917" duration="4150000" />
+      <workItem from="1562758828917" duration="6066000" />
+      <workItem from="1562835403656" duration="1303000" />
+      <workItem from="1562851580157" duration="2621000" />
+      <workItem from="1562917735073" duration="7245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39939000" />
+    <option name="totallyTimeSpent" value="53024000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,13 +547,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="674" y="23" width="1280" height="732" extended-state="0" />
+    <frame x="446" y="23" width="1280" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.246875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -454,7 +566,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -469,72 +580,185 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/exo-final-twig/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding>
+            <marker date="1562922134000" expanded="true" signature="31:1154" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="38:371" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="92:206" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="378:1146" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="403:570" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="593:836" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="602:827" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="612:817" ph="{% for id, profil in profils ...%}" />
+            <marker date="1562922134000" expanded="true" signature="681:795" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="717:738" ph="/single-exo-final-twig/{id}" />
+            <marker date="1562922134000" expanded="true" signature="857:908" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="863:901" ph="{% block content ...%}" />
+            <marker date="1562922134000" expanded="true" signature="933:1137" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <marker date="1562918030000" expanded="true" signature="38:240" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="370:12838" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="377:420" ph=" @Route(&quot;/test3&quot;, name=&quot;home_index&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="463:600" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="509:547" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="555:595" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="606:647" ph=" @Route(&quot;/blog/{id}&quot;, name=&quot;blog&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="676:710" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="716:758" ph=" @Route(&quot;/contact&quot;, name=&quot;contact&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="787:1019" ph="{...}" />
+            <marker date="1562918030000" expanded="false" signature="1003:1013" ph="/test3" />
+            <marker date="1562918030000" expanded="true" signature="1025:1061" ph=" @Route(&quot;/twig&quot;, name=&quot;twig&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1092:1235" ph="{...}" />
+            <marker date="1562918030000" expanded="false" signature="1214:1229" ph="basic" />
+            <marker date="1562918030000" expanded="true" signature="1241:1293" ph=" @Route(&quot;/article_show&quot;, name=&quot;article_show&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1326:1883" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="1611:1877" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="1612:1629" ph="article" />
+            <marker date="1562918030000" expanded="true" signature="1635:1826" ph="//..." />
+            <marker date="1562918030000" expanded="true" signature="1831:1873" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="1889:1944" ph=" @Route(&quot;/conditiontwig&quot;, name=&quot;condition_twig&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1979:2323" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="2233:2318" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="2234:2258" ph="condition_twig" />
+            <marker date="1562918030000" expanded="true" signature="2265:2314" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="2330:2535" ph="  @Route(&quot;/articlelist&quot;, name=&quot;article_list&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="2585:4018" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="2909:3655" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="2914:3093" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3100:3279" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3286:3465" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3472:3651" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3929:4013" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="3930:3951" ph="articleList" />
+            <marker date="1562918030000" expanded="true" signature="3958:4009" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4025:4134" ph=" @Route(&quot;/list&quot;, name=&quot;list&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="4160:6871" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="4180:6778" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4190:4709" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4721:5107" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="5119:5657" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="5669:6065" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6077:6419" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6431:6772" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6806:6864" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="6807:6828" ph="articleList" />
+            <marker date="1562918030000" expanded="true" signature="6833:6863" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6877:6930" ph=" @Route(&quot;/single/{id}&quot;, name=&quot;single_article&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="6961:12834" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="6981:9579" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6991:7510" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="7522:7908" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="7920:8458" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="8470:8866" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="8878:9220" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9232:9573" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9599:12739" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9604:9989" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9996:10381" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="10388:10773" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="10780:11165" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11172:11557" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11564:11949" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11956:12341" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="12348:12733" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="12766:12828" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="12767:12789" ph="article_show" />
+            <marker date="1562918030000" expanded="true" signature="12793:12827" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5040">
           <caret line="252" column="25" lean-forward="true" selection-start-line="252" selection-start-column="25" selection-end-line="252" selection-end-column="25" />
           <folding>
-            <marker date="1562681694000" expanded="true" signature="38:240" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="370:12839" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="378:421" ph=" @Route(&quot;/test3&quot;, name=&quot;home_index&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="464:601" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="510:548" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="556:596" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="607:648" ph=" @Route(&quot;/blog/{id}&quot;, name=&quot;blog&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="677:711" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="717:759" ph=" @Route(&quot;/contact&quot;, name=&quot;contact&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="788:1020" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1026:1062" ph=" @Route(&quot;/twig&quot;, name=&quot;twig&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1093:1236" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1242:1294" ph=" @Route(&quot;/article_show&quot;, name=&quot;article_show&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1327:1884" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1612:1878" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="1636:1827" ph="//..." />
-            <marker date="1562681694000" expanded="true" signature="1832:1874" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="1890:1945" ph=" @Route(&quot;/conditiontwig&quot;, name=&quot;condition_twig&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1980:2324" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="2234:2319" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2266:2315" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2331:2536" ph="  @Route(&quot;/articlelist&quot;, name=&quot;article_list&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="2586:4019" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="2910:3656" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2915:3094" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3101:3280" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3287:3466" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3473:3652" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3930:4014" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3959:4010" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4026:4135" ph=" @Route(&quot;/list&quot;, name=&quot;list&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="4161:6872" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="4181:6779" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4191:4710" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4722:5108" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="5120:5658" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="5670:6066" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6078:6420" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6432:6773" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6807:6865" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6834:6864" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6878:6931" ph=" @Route(&quot;/single/{id}&quot;, name=&quot;single_article&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="6962:12835" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="6982:9580" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6992:7511" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="7523:7909" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="7921:8459" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="8471:8867" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="8879:9221" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9233:9574" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9600:12740" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9605:9990" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9997:10382" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="10389:10774" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="10781:11166" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11173:11558" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11565:11950" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11957:12342" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12349:12734" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12767:12829" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12794:12828" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="38:240" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="370:12838" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="377:420" ph=" @Route(&quot;/test3&quot;, name=&quot;home_index&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="463:600" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="509:547" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="555:595" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="606:647" ph=" @Route(&quot;/blog/{id}&quot;, name=&quot;blog&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="676:710" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="716:758" ph=" @Route(&quot;/contact&quot;, name=&quot;contact&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="787:1019" ph="{...}" />
+            <marker date="1562918030000" expanded="false" signature="1003:1013" ph="/test3" />
+            <marker date="1562918030000" expanded="true" signature="1025:1061" ph=" @Route(&quot;/twig&quot;, name=&quot;twig&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1092:1235" ph="{...}" />
+            <marker date="1562918030000" expanded="false" signature="1214:1229" ph="basic" />
+            <marker date="1562918030000" expanded="true" signature="1241:1293" ph=" @Route(&quot;/article_show&quot;, name=&quot;article_show&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1326:1883" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="1611:1877" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="1612:1629" ph="article" />
+            <marker date="1562918030000" expanded="true" signature="1635:1826" ph="//..." />
+            <marker date="1562918030000" expanded="true" signature="1831:1873" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="1889:1944" ph=" @Route(&quot;/conditiontwig&quot;, name=&quot;condition_twig&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1979:2323" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="2233:2318" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="2234:2258" ph="condition_twig" />
+            <marker date="1562918030000" expanded="true" signature="2265:2314" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="2330:2535" ph="  @Route(&quot;/articlelist&quot;, name=&quot;article_list&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="2585:4018" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="2909:3655" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="2914:3093" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3100:3279" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3286:3465" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3472:3651" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3929:4013" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="3930:3951" ph="articleList" />
+            <marker date="1562918030000" expanded="true" signature="3958:4009" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4025:4134" ph=" @Route(&quot;/list&quot;, name=&quot;list&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="4160:6871" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="4180:6778" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4190:4709" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4721:5107" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="5119:5657" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="5669:6065" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6077:6419" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6431:6772" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6806:6864" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="6807:6828" ph="articleList" />
+            <marker date="1562918030000" expanded="true" signature="6833:6863" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6877:6930" ph=" @Route(&quot;/single/{id}&quot;, name=&quot;single_article&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="6961:12834" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="6981:9579" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6991:7510" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="7522:7908" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="7920:8458" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="8470:8866" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="8878:9220" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9232:9573" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9599:12739" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9604:9989" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9996:10381" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="10388:10773" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="10780:11165" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11172:11557" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11564:11949" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11956:12341" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="12348:12733" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="12766:12828" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="12767:12789" ph="article_show" />
+            <marker date="1562918030000" expanded="true" signature="12793:12827" ph="..." />
           </folding>
         </state>
       </provider>
@@ -544,67 +768,74 @@
         <state relative-caret-position="3420">
           <caret line="174" column="14" lean-forward="true" selection-start-line="174" selection-start-column="14" selection-end-line="174" selection-end-column="14" />
           <folding>
-            <marker date="1562681694000" expanded="true" signature="38:240" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="370:12839" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="378:421" ph=" @Route(&quot;/test3&quot;, name=&quot;home_index&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="464:601" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="510:548" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="556:596" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="607:648" ph=" @Route(&quot;/blog/{id}&quot;, name=&quot;blog&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="677:711" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="717:759" ph=" @Route(&quot;/contact&quot;, name=&quot;contact&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="788:1020" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1026:1062" ph=" @Route(&quot;/twig&quot;, name=&quot;twig&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1093:1236" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1242:1294" ph=" @Route(&quot;/article_show&quot;, name=&quot;article_show&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1327:1884" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1612:1878" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="1636:1827" ph="//..." />
-            <marker date="1562681694000" expanded="true" signature="1832:1874" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="1890:1945" ph=" @Route(&quot;/conditiontwig&quot;, name=&quot;condition_twig&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1980:2324" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="2234:2319" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2266:2315" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2331:2536" ph="  @Route(&quot;/articlelist&quot;, name=&quot;article_list&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="2586:4019" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="2910:3656" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2915:3094" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3101:3280" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3287:3466" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3473:3652" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3930:4014" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3959:4010" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4026:4135" ph=" @Route(&quot;/list&quot;, name=&quot;list&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="4161:6872" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="4181:6779" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4191:4710" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4722:5108" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="5120:5658" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="5670:6066" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6078:6420" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6432:6773" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6807:6865" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6834:6864" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6878:6931" ph=" @Route(&quot;/single/{id}&quot;, name=&quot;single_article&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="6962:12835" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="6982:9580" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6992:7511" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="7523:7909" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="7921:8459" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="8471:8867" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="8879:9221" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9233:9574" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9600:12740" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9605:9990" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9997:10382" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="10389:10774" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="10781:11166" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11173:11558" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11565:11950" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11957:12342" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12349:12734" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12767:12829" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12794:12828" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="38:240" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="370:12838" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="377:420" ph=" @Route(&quot;/test3&quot;, name=&quot;home_index&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="463:600" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="509:547" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="555:595" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="606:647" ph=" @Route(&quot;/blog/{id}&quot;, name=&quot;blog&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="676:710" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="716:758" ph=" @Route(&quot;/contact&quot;, name=&quot;contact&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="787:1019" ph="{...}" />
+            <marker date="1562918030000" expanded="false" signature="1003:1013" ph="/test3" />
+            <marker date="1562918030000" expanded="true" signature="1025:1061" ph=" @Route(&quot;/twig&quot;, name=&quot;twig&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1092:1235" ph="{...}" />
+            <marker date="1562918030000" expanded="false" signature="1214:1229" ph="basic" />
+            <marker date="1562918030000" expanded="true" signature="1241:1293" ph=" @Route(&quot;/article_show&quot;, name=&quot;article_show&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1326:1883" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="1611:1877" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="1612:1629" ph="article" />
+            <marker date="1562918030000" expanded="true" signature="1635:1826" ph="//..." />
+            <marker date="1562918030000" expanded="true" signature="1831:1873" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="1889:1944" ph=" @Route(&quot;/conditiontwig&quot;, name=&quot;condition_twig&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1979:2323" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="2233:2318" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="2234:2258" ph="condition_twig" />
+            <marker date="1562918030000" expanded="true" signature="2265:2314" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="2330:2535" ph="  @Route(&quot;/articlelist&quot;, name=&quot;article_list&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="2585:4018" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="2909:3655" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="2914:3093" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3100:3279" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3286:3465" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3472:3651" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3929:4013" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="3930:3951" ph="articleList" />
+            <marker date="1562918030000" expanded="true" signature="3958:4009" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4025:4134" ph=" @Route(&quot;/list&quot;, name=&quot;list&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="4160:6871" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="4180:6778" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4190:4709" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4721:5107" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="5119:5657" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="5669:6065" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6077:6419" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6431:6772" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6806:6864" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="6807:6828" ph="articleList" />
+            <marker date="1562918030000" expanded="true" signature="6833:6863" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6877:6930" ph=" @Route(&quot;/single/{id}&quot;, name=&quot;single_article&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="6961:12834" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="6981:9579" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6991:7510" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="7522:7908" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="7920:8458" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="8470:8866" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="8878:9220" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9232:9573" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9599:12739" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9604:9989" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9996:10381" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="10388:10773" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="10780:11165" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11172:11557" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11564:11949" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11956:12341" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="12348:12733" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="12766:12828" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="12767:12789" ph="article_show" />
+            <marker date="1562918030000" expanded="true" signature="12793:12827" ph="..." />
           </folding>
         </state>
       </provider>
@@ -614,67 +845,74 @@
         <state relative-caret-position="2320">
           <caret line="116" column="42" lean-forward="false" selection-start-line="116" selection-start-column="15" selection-end-line="116" selection-end-column="42" />
           <folding>
-            <marker date="1562681694000" expanded="true" signature="38:240" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="370:12839" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="378:421" ph=" @Route(&quot;/test3&quot;, name=&quot;home_index&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="464:601" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="510:548" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="556:596" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="607:648" ph=" @Route(&quot;/blog/{id}&quot;, name=&quot;blog&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="677:711" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="717:759" ph=" @Route(&quot;/contact&quot;, name=&quot;contact&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="788:1020" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1026:1062" ph=" @Route(&quot;/twig&quot;, name=&quot;twig&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1093:1236" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1242:1294" ph=" @Route(&quot;/article_show&quot;, name=&quot;article_show&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1327:1884" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1612:1878" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="1636:1827" ph="//..." />
-            <marker date="1562681694000" expanded="true" signature="1832:1874" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="1890:1945" ph=" @Route(&quot;/conditiontwig&quot;, name=&quot;condition_twig&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1980:2324" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="2234:2319" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2266:2315" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2331:2536" ph="  @Route(&quot;/articlelist&quot;, name=&quot;article_list&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="2586:4019" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="2910:3656" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2915:3094" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3101:3280" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3287:3466" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3473:3652" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3930:4014" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3959:4010" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4026:4135" ph=" @Route(&quot;/list&quot;, name=&quot;list&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="4161:6872" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="4181:6779" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4191:4710" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4722:5108" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="5120:5658" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="5670:6066" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6078:6420" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6432:6773" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6807:6865" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6834:6864" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6878:6931" ph=" @Route(&quot;/single/{id}&quot;, name=&quot;single_article&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="6962:12835" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="6982:9580" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6992:7511" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="7523:7909" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="7921:8459" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="8471:8867" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="8879:9221" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9233:9574" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9600:12740" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9605:9990" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9997:10382" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="10389:10774" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="10781:11166" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11173:11558" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11565:11950" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11957:12342" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12349:12734" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12767:12829" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12794:12828" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="38:240" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="370:12838" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="377:420" ph=" @Route(&quot;/test3&quot;, name=&quot;home_index&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="463:600" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="509:547" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="555:595" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="606:647" ph=" @Route(&quot;/blog/{id}&quot;, name=&quot;blog&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="676:710" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="716:758" ph=" @Route(&quot;/contact&quot;, name=&quot;contact&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="787:1019" ph="{...}" />
+            <marker date="1562918030000" expanded="false" signature="1003:1013" ph="/test3" />
+            <marker date="1562918030000" expanded="true" signature="1025:1061" ph=" @Route(&quot;/twig&quot;, name=&quot;twig&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1092:1235" ph="{...}" />
+            <marker date="1562918030000" expanded="false" signature="1214:1229" ph="basic" />
+            <marker date="1562918030000" expanded="true" signature="1241:1293" ph=" @Route(&quot;/article_show&quot;, name=&quot;article_show&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1326:1883" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="1611:1877" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="1612:1629" ph="article" />
+            <marker date="1562918030000" expanded="true" signature="1635:1826" ph="//..." />
+            <marker date="1562918030000" expanded="true" signature="1831:1873" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="1889:1944" ph=" @Route(&quot;/conditiontwig&quot;, name=&quot;condition_twig&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1979:2323" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="2233:2318" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="2234:2258" ph="condition_twig" />
+            <marker date="1562918030000" expanded="true" signature="2265:2314" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="2330:2535" ph="  @Route(&quot;/articlelist&quot;, name=&quot;article_list&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="2585:4018" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="2909:3655" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="2914:3093" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3100:3279" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3286:3465" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3472:3651" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3929:4013" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="3930:3951" ph="articleList" />
+            <marker date="1562918030000" expanded="true" signature="3958:4009" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4025:4134" ph=" @Route(&quot;/list&quot;, name=&quot;list&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="4160:6871" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="4180:6778" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4190:4709" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4721:5107" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="5119:5657" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="5669:6065" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6077:6419" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6431:6772" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6806:6864" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="6807:6828" ph="articleList" />
+            <marker date="1562918030000" expanded="true" signature="6833:6863" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6877:6930" ph=" @Route(&quot;/single/{id}&quot;, name=&quot;single_article&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="6961:12834" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="6981:9579" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6991:7510" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="7522:7908" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="7920:8458" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="8470:8866" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="8878:9220" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9232:9573" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9599:12739" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9604:9989" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9996:10381" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="10388:10773" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="10780:11165" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11172:11557" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11564:11949" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11956:12341" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="12348:12733" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="12766:12828" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="12767:12789" ph="article_show" />
+            <marker date="1562918030000" expanded="true" signature="12793:12827" ph="..." />
           </folding>
         </state>
       </provider>
@@ -684,67 +922,74 @@
         <state relative-caret-position="1740">
           <caret line="116" column="42" lean-forward="true" selection-start-line="116" selection-start-column="15" selection-end-line="116" selection-end-column="42" />
           <folding>
-            <marker date="1562681694000" expanded="true" signature="38:240" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="370:12839" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="378:421" ph=" @Route(&quot;/test3&quot;, name=&quot;home_index&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="464:601" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="510:548" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="556:596" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="607:648" ph=" @Route(&quot;/blog/{id}&quot;, name=&quot;blog&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="677:711" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="717:759" ph=" @Route(&quot;/contact&quot;, name=&quot;contact&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="788:1020" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1026:1062" ph=" @Route(&quot;/twig&quot;, name=&quot;twig&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1093:1236" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1242:1294" ph=" @Route(&quot;/article_show&quot;, name=&quot;article_show&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1327:1884" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1612:1878" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="1636:1827" ph="//..." />
-            <marker date="1562681694000" expanded="true" signature="1832:1874" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="1890:1945" ph=" @Route(&quot;/conditiontwig&quot;, name=&quot;condition_twig&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1980:2324" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="2234:2319" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2266:2315" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2331:2536" ph="  @Route(&quot;/articlelist&quot;, name=&quot;article_list&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="2586:4019" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="2910:3656" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2915:3094" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3101:3280" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3287:3466" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3473:3652" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3930:4014" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3959:4010" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4026:4135" ph=" @Route(&quot;/list&quot;, name=&quot;list&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="4161:6872" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="4181:6779" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4191:4710" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4722:5108" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="5120:5658" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="5670:6066" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6078:6420" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6432:6773" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6807:6865" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6834:6864" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6878:6931" ph=" @Route(&quot;/single/{id}&quot;, name=&quot;single_article&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="6962:12835" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="6982:9580" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6992:7511" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="7523:7909" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="7921:8459" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="8471:8867" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="8879:9221" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9233:9574" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9600:12740" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9605:9990" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9997:10382" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="10389:10774" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="10781:11166" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11173:11558" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11565:11950" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11957:12342" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12349:12734" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12767:12829" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12794:12828" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="38:240" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="370:12838" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="377:420" ph=" @Route(&quot;/test3&quot;, name=&quot;home_index&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="463:600" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="509:547" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="555:595" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="606:647" ph=" @Route(&quot;/blog/{id}&quot;, name=&quot;blog&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="676:710" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="716:758" ph=" @Route(&quot;/contact&quot;, name=&quot;contact&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="787:1019" ph="{...}" />
+            <marker date="1562918030000" expanded="false" signature="1003:1013" ph="/test3" />
+            <marker date="1562918030000" expanded="true" signature="1025:1061" ph=" @Route(&quot;/twig&quot;, name=&quot;twig&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1092:1235" ph="{...}" />
+            <marker date="1562918030000" expanded="false" signature="1214:1229" ph="basic" />
+            <marker date="1562918030000" expanded="true" signature="1241:1293" ph=" @Route(&quot;/article_show&quot;, name=&quot;article_show&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1326:1883" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="1611:1877" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="1612:1629" ph="article" />
+            <marker date="1562918030000" expanded="true" signature="1635:1826" ph="//..." />
+            <marker date="1562918030000" expanded="true" signature="1831:1873" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="1889:1944" ph=" @Route(&quot;/conditiontwig&quot;, name=&quot;condition_twig&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1979:2323" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="2233:2318" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="2234:2258" ph="condition_twig" />
+            <marker date="1562918030000" expanded="true" signature="2265:2314" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="2330:2535" ph="  @Route(&quot;/articlelist&quot;, name=&quot;article_list&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="2585:4018" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="2909:3655" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="2914:3093" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3100:3279" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3286:3465" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3472:3651" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3929:4013" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="3930:3951" ph="articleList" />
+            <marker date="1562918030000" expanded="true" signature="3958:4009" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4025:4134" ph=" @Route(&quot;/list&quot;, name=&quot;list&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="4160:6871" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="4180:6778" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4190:4709" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4721:5107" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="5119:5657" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="5669:6065" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6077:6419" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6431:6772" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6806:6864" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="6807:6828" ph="articleList" />
+            <marker date="1562918030000" expanded="true" signature="6833:6863" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6877:6930" ph=" @Route(&quot;/single/{id}&quot;, name=&quot;single_article&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="6961:12834" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="6981:9579" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6991:7510" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="7522:7908" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="7920:8458" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="8470:8866" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="8878:9220" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9232:9573" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9599:12739" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9604:9989" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9996:10381" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="10388:10773" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="10780:11165" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11172:11557" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11564:11949" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11956:12341" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="12348:12733" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="12766:12828" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="12767:12789" ph="article_show" />
+            <marker date="1562918030000" expanded="true" signature="12793:12827" ph="..." />
           </folding>
         </state>
       </provider>
@@ -754,67 +999,74 @@
         <state relative-caret-position="760">
           <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding>
-            <marker date="1562681694000" expanded="true" signature="38:240" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="370:12839" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="378:421" ph=" @Route(&quot;/test3&quot;, name=&quot;home_index&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="464:601" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="510:548" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="556:596" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="607:648" ph=" @Route(&quot;/blog/{id}&quot;, name=&quot;blog&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="677:711" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="717:759" ph=" @Route(&quot;/contact&quot;, name=&quot;contact&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="788:1020" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1026:1062" ph=" @Route(&quot;/twig&quot;, name=&quot;twig&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1093:1236" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1242:1294" ph=" @Route(&quot;/article_show&quot;, name=&quot;article_show&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1327:1884" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1612:1878" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="1636:1827" ph="//..." />
-            <marker date="1562681694000" expanded="true" signature="1832:1874" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="1890:1945" ph=" @Route(&quot;/conditiontwig&quot;, name=&quot;condition_twig&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1980:2324" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="2234:2319" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2266:2315" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2331:2536" ph="  @Route(&quot;/articlelist&quot;, name=&quot;article_list&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="2586:4019" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="2910:3656" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2915:3094" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3101:3280" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3287:3466" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3473:3652" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3930:4014" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3959:4010" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4026:4135" ph=" @Route(&quot;/list&quot;, name=&quot;list&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="4161:6872" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="4181:6779" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4191:4710" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4722:5108" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="5120:5658" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="5670:6066" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6078:6420" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6432:6773" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6807:6865" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6834:6864" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6878:6931" ph=" @Route(&quot;/single/{id}&quot;, name=&quot;single_article&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="6962:12835" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="6982:9580" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6992:7511" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="7523:7909" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="7921:8459" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="8471:8867" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="8879:9221" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9233:9574" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9600:12740" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9605:9990" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9997:10382" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="10389:10774" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="10781:11166" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11173:11558" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11565:11950" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11957:12342" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12349:12734" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12767:12829" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12794:12828" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="38:240" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="370:12838" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="377:420" ph=" @Route(&quot;/test3&quot;, name=&quot;home_index&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="463:600" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="509:547" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="555:595" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="606:647" ph=" @Route(&quot;/blog/{id}&quot;, name=&quot;blog&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="676:710" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="716:758" ph=" @Route(&quot;/contact&quot;, name=&quot;contact&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="787:1019" ph="{...}" />
+            <marker date="1562918030000" expanded="false" signature="1003:1013" ph="/test3" />
+            <marker date="1562918030000" expanded="true" signature="1025:1061" ph=" @Route(&quot;/twig&quot;, name=&quot;twig&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1092:1235" ph="{...}" />
+            <marker date="1562918030000" expanded="false" signature="1214:1229" ph="basic" />
+            <marker date="1562918030000" expanded="true" signature="1241:1293" ph=" @Route(&quot;/article_show&quot;, name=&quot;article_show&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1326:1883" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="1611:1877" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="1612:1629" ph="article" />
+            <marker date="1562918030000" expanded="true" signature="1635:1826" ph="//..." />
+            <marker date="1562918030000" expanded="true" signature="1831:1873" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="1889:1944" ph=" @Route(&quot;/conditiontwig&quot;, name=&quot;condition_twig&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1979:2323" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="2233:2318" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="2234:2258" ph="condition_twig" />
+            <marker date="1562918030000" expanded="true" signature="2265:2314" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="2330:2535" ph="  @Route(&quot;/articlelist&quot;, name=&quot;article_list&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="2585:4018" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="2909:3655" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="2914:3093" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3100:3279" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3286:3465" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3472:3651" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3929:4013" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="3930:3951" ph="articleList" />
+            <marker date="1562918030000" expanded="true" signature="3958:4009" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4025:4134" ph=" @Route(&quot;/list&quot;, name=&quot;list&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="4160:6871" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="4180:6778" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4190:4709" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4721:5107" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="5119:5657" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="5669:6065" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6077:6419" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6431:6772" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6806:6864" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="6807:6828" ph="articleList" />
+            <marker date="1562918030000" expanded="true" signature="6833:6863" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6877:6930" ph=" @Route(&quot;/single/{id}&quot;, name=&quot;single_article&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="6961:12834" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="6981:9579" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6991:7510" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="7522:7908" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="7920:8458" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="8470:8866" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="8878:9220" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9232:9573" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9599:12739" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9604:9989" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9996:10381" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="10388:10773" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="10780:11165" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11172:11557" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11564:11949" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11956:12341" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="12348:12733" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="12766:12828" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="12767:12789" ph="article_show" />
+            <marker date="1562918030000" expanded="true" signature="12793:12827" ph="..." />
           </folding>
         </state>
       </provider>
@@ -831,67 +1083,74 @@
         <state relative-caret-position="360">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <marker date="1562681694000" expanded="true" signature="38:240" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="370:12839" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="378:421" ph=" @Route(&quot;/test3&quot;, name=&quot;home_index&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="464:601" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="510:548" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="556:596" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="607:648" ph=" @Route(&quot;/blog/{id}&quot;, name=&quot;blog&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="677:711" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="717:759" ph=" @Route(&quot;/contact&quot;, name=&quot;contact&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="788:1020" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1026:1062" ph=" @Route(&quot;/twig&quot;, name=&quot;twig&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1093:1236" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1242:1294" ph=" @Route(&quot;/article_show&quot;, name=&quot;article_show&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1327:1884" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1612:1878" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="1636:1827" ph="//..." />
-            <marker date="1562681694000" expanded="true" signature="1832:1874" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="1890:1945" ph=" @Route(&quot;/conditiontwig&quot;, name=&quot;condition_twig&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1980:2324" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="2234:2319" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2266:2315" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2331:2536" ph="  @Route(&quot;/articlelist&quot;, name=&quot;article_list&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="2586:4019" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="2910:3656" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2915:3094" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3101:3280" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3287:3466" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3473:3652" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3930:4014" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3959:4010" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4026:4135" ph=" @Route(&quot;/list&quot;, name=&quot;list&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="4161:6872" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="4181:6779" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4191:4710" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4722:5108" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="5120:5658" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="5670:6066" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6078:6420" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6432:6773" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6807:6865" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6834:6864" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6878:6931" ph=" @Route(&quot;/single/{id}&quot;, name=&quot;single_article&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="6962:12835" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="6982:9580" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6992:7511" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="7523:7909" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="7921:8459" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="8471:8867" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="8879:9221" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9233:9574" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9600:12740" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9605:9990" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9997:10382" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="10389:10774" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="10781:11166" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11173:11558" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11565:11950" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11957:12342" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12349:12734" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12767:12829" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12794:12828" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="38:240" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="370:12838" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="377:420" ph=" @Route(&quot;/test3&quot;, name=&quot;home_index&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="463:600" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="509:547" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="555:595" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="606:647" ph=" @Route(&quot;/blog/{id}&quot;, name=&quot;blog&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="676:710" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="716:758" ph=" @Route(&quot;/contact&quot;, name=&quot;contact&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="787:1019" ph="{...}" />
+            <marker date="1562918030000" expanded="false" signature="1003:1013" ph="/test3" />
+            <marker date="1562918030000" expanded="true" signature="1025:1061" ph=" @Route(&quot;/twig&quot;, name=&quot;twig&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1092:1235" ph="{...}" />
+            <marker date="1562918030000" expanded="false" signature="1214:1229" ph="basic" />
+            <marker date="1562918030000" expanded="true" signature="1241:1293" ph=" @Route(&quot;/article_show&quot;, name=&quot;article_show&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1326:1883" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="1611:1877" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="1612:1629" ph="article" />
+            <marker date="1562918030000" expanded="true" signature="1635:1826" ph="//..." />
+            <marker date="1562918030000" expanded="true" signature="1831:1873" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="1889:1944" ph=" @Route(&quot;/conditiontwig&quot;, name=&quot;condition_twig&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1979:2323" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="2233:2318" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="2234:2258" ph="condition_twig" />
+            <marker date="1562918030000" expanded="true" signature="2265:2314" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="2330:2535" ph="  @Route(&quot;/articlelist&quot;, name=&quot;article_list&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="2585:4018" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="2909:3655" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="2914:3093" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3100:3279" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3286:3465" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3472:3651" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3929:4013" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="3930:3951" ph="articleList" />
+            <marker date="1562918030000" expanded="true" signature="3958:4009" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4025:4134" ph=" @Route(&quot;/list&quot;, name=&quot;list&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="4160:6871" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="4180:6778" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4190:4709" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4721:5107" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="5119:5657" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="5669:6065" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6077:6419" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6431:6772" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6806:6864" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="6807:6828" ph="articleList" />
+            <marker date="1562918030000" expanded="true" signature="6833:6863" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6877:6930" ph=" @Route(&quot;/single/{id}&quot;, name=&quot;single_article&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="6961:12834" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="6981:9579" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6991:7510" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="7522:7908" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="7920:8458" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="8470:8866" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="8878:9220" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9232:9573" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9599:12739" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9604:9989" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9996:10381" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="10388:10773" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="10780:11165" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11172:11557" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11564:11949" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11956:12341" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="12348:12733" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="12766:12828" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="12767:12789" ph="article_show" />
+            <marker date="1562918030000" expanded="true" signature="12793:12827" ph="..." />
           </folding>
         </state>
       </provider>
@@ -966,95 +1225,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-877">
-          <caret line="234" column="29" lean-forward="true" selection-start-line="234" selection-start-column="29" selection-end-line="234" selection-end-column="29" />
-          <folding>
-            <marker date="1562681694000" expanded="true" signature="38:240" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="370:12839" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="378:421" ph=" @Route(&quot;/test3&quot;, name=&quot;home_index&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="464:601" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="510:548" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="556:596" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="607:648" ph=" @Route(&quot;/blog/{id}&quot;, name=&quot;blog&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="677:711" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="717:759" ph=" @Route(&quot;/contact&quot;, name=&quot;contact&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="788:1020" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1026:1062" ph=" @Route(&quot;/twig&quot;, name=&quot;twig&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1093:1236" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1242:1294" ph=" @Route(&quot;/article_show&quot;, name=&quot;article_show&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1327:1884" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="1612:1878" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="1636:1827" ph="//..." />
-            <marker date="1562681694000" expanded="true" signature="1832:1874" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="1890:1945" ph=" @Route(&quot;/conditiontwig&quot;, name=&quot;condition_twig&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="1980:2324" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="2234:2319" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2266:2315" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2331:2536" ph="  @Route(&quot;/articlelist&quot;, name=&quot;article_list&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="2586:4019" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="2910:3656" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="2915:3094" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3101:3280" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3287:3466" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3473:3652" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3930:4014" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="3959:4010" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4026:4135" ph=" @Route(&quot;/list&quot;, name=&quot;list&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="4161:6872" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="4181:6779" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4191:4710" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="4722:5108" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="5120:5658" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="5670:6066" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6078:6420" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6432:6773" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6807:6865" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6834:6864" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6878:6931" ph=" @Route(&quot;/single/{id}&quot;, name=&quot;single_article&quot;) ..." />
-            <marker date="1562681694000" expanded="true" signature="6962:12835" ph="{...}" />
-            <marker date="1562681694000" expanded="true" signature="6982:9580" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="6992:7511" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="7523:7909" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="7921:8459" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="8471:8867" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="8879:9221" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9233:9574" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9600:12740" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9605:9990" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="9997:10382" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="10389:10774" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="10781:11166" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11173:11558" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11565:11950" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="11957:12342" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12349:12734" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12767:12829" ph="..." />
-            <marker date="1562681694000" expanded="true" signature="12794:12828" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/article.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1562313329000" expanded="true" signature="31:431" ph="..." />
-            <marker date="1562313329000" expanded="true" signature="38:300" ph="..." />
-            <marker date="1562313329000" expanded="true" signature="92:206" ph="..." />
-            <marker date="1562313329000" expanded="true" signature="307:423" ph="..." />
-            <marker date="1562313329000" expanded="true" signature="318:415" ph="..." />
-            <marker date="1562313329000" expanded="true" signature="336:403" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1062,7 +1236,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" lean-forward="true" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,9 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <marker date="1562320524000" expanded="true" signature="78:202" ph="{% if display ...%}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1080,25 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <marker date="1562580515000" expanded="true" signature="31:1142" ph="..." />
-            <marker date="1562580515000" expanded="true" signature="38:530" ph="..." />
-            <marker date="1562580515000" expanded="true" signature="92:206" ph="..." />
-            <marker date="1562580515000" expanded="true" signature="537:1134" ph="..." />
-            <marker date="1562580515000" expanded="true" signature="549:1125" ph="..." />
-            <marker date="1562580515000" expanded="true" signature="797:992" ph="{## utilisation de la fonction twig &quot;path&quot; pour créer un lien vers une page...##}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/articleList.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding>
-            <marker date="1562759143000" expanded="true" signature="48:419" ph="{% for id, article in articles ...%}" />
-            <marker date="1562759143000" expanded="true" signature="118:397" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1106,50 +1257,249 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="7" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig" />
+    <entry file="file://$PROJECT_DIR$/templates/article_show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base/_header.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <marker date="1562762065000" expanded="true" signature="31:385" ph="..." />
-            <marker date="1562762065000" expanded="true" signature="38:371" ph="..." />
-            <marker date="1562762065000" expanded="true" signature="92:206" ph="..." />
-            <marker date="1562762065000" expanded="true" signature="378:385" ph="..." />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/img/1.png" />
     <entry file="file://$PROJECT_DIR$/templates/base/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="200">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/articleList.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/img/black_hole_resize_md.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/exo-final-twig/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="17" />
           <folding>
-            <marker date="1562762683000" expanded="true" signature="31:446" ph="..." />
-            <marker date="1562762683000" expanded="true" signature="38:371" ph="..." />
-            <marker date="1562762683000" expanded="true" signature="92:206" ph="..." />
-            <marker date="1562762683000" expanded="true" signature="378:438" ph="..." />
-            <marker date="1562762683000" expanded="true" signature="385:430" ph="..." />
-            <marker date="1562762683000" expanded="true" signature="388:422" ph="{% block content ...%}" />
+            <marker date="1562922134000" expanded="true" signature="31:1154" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="38:371" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="92:206" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="378:1146" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="403:570" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="593:836" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="602:827" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="612:817" ph="{% for id, profil in profils ...%}" />
+            <marker date="1562922134000" expanded="true" signature="681:795" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="717:738" ph="/single-exo-final-twig/{id}" />
+            <marker date="1562922134000" expanded="true" signature="857:908" ph="..." />
+            <marker date="1562922134000" expanded="true" signature="863:901" ph="{% block content ...%}" />
+            <marker date="1562922134000" expanded="true" signature="933:1137" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/article_show.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/exo-final-twig/single.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="261">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <marker date="1562925271000" expanded="true" signature="12:41" ph="exo-final-twig/base" />
+            <marker date="1562925271000" expanded="true" signature="47:355" ph="{% block content ...%}" />
+            <marker date="1562925271000" expanded="true" signature="95:338" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/exo-final-twig/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <marker date="1562926618000" expanded="true" signature="12:41" ph="exo-final-twig/base" />
+            <marker date="1562926618000" expanded="true" signature="47:675" ph="{% block content ...%}" />
+            <marker date="1562926618000" expanded="true" signature="135:659" ph="..." />
+            <marker date="1562926618000" expanded="true" signature="167:285" ph="..." />
+            <marker date="1562926618000" expanded="true" signature="317:439" ph="..." />
+            <marker date="1562926618000" expanded="true" signature="471:596" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <marker date="1562918030000" expanded="true" signature="38:240" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="370:12838" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="377:420" ph=" @Route(&quot;/test3&quot;, name=&quot;home_index&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="463:600" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="509:547" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="555:595" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="606:647" ph=" @Route(&quot;/blog/{id}&quot;, name=&quot;blog&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="676:710" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="716:758" ph=" @Route(&quot;/contact&quot;, name=&quot;contact&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="787:1019" ph="{...}" />
+            <marker date="1562918030000" expanded="false" signature="1003:1013" ph="/test3" />
+            <marker date="1562918030000" expanded="true" signature="1025:1061" ph=" @Route(&quot;/twig&quot;, name=&quot;twig&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1092:1235" ph="{...}" />
+            <marker date="1562918030000" expanded="false" signature="1214:1229" ph="basic" />
+            <marker date="1562918030000" expanded="true" signature="1241:1293" ph=" @Route(&quot;/article_show&quot;, name=&quot;article_show&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1326:1883" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="1611:1877" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="1612:1629" ph="article" />
+            <marker date="1562918030000" expanded="true" signature="1635:1826" ph="//..." />
+            <marker date="1562918030000" expanded="true" signature="1831:1873" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="1889:1944" ph=" @Route(&quot;/conditiontwig&quot;, name=&quot;condition_twig&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="1979:2323" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="2233:2318" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="2234:2258" ph="condition_twig" />
+            <marker date="1562918030000" expanded="true" signature="2265:2314" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="2330:2535" ph="  @Route(&quot;/articlelist&quot;, name=&quot;article_list&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="2585:4018" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="2909:3655" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="2914:3093" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3100:3279" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3286:3465" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3472:3651" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="3929:4013" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="3930:3951" ph="articleList" />
+            <marker date="1562918030000" expanded="true" signature="3958:4009" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4025:4134" ph=" @Route(&quot;/list&quot;, name=&quot;list&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="4160:6871" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="4180:6778" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4190:4709" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="4721:5107" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="5119:5657" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="5669:6065" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6077:6419" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6431:6772" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6806:6864" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="6807:6828" ph="articleList" />
+            <marker date="1562918030000" expanded="true" signature="6833:6863" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6877:6930" ph=" @Route(&quot;/single/{id}&quot;, name=&quot;single_article&quot;) ..." />
+            <marker date="1562918030000" expanded="true" signature="6961:12834" ph="{...}" />
+            <marker date="1562918030000" expanded="true" signature="6981:9579" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="6991:7510" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="7522:7908" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="7920:8458" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="8470:8866" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="8878:9220" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9232:9573" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9599:12739" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9604:9989" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="9996:10381" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="10388:10773" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="10780:11165" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11172:11557" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11564:11949" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="11956:12341" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="12348:12733" ph="..." />
+            <marker date="1562918030000" expanded="true" signature="12766:12828" ph="..." />
+            <marker date="1562918030000" expanded="false" signature="12767:12789" ph="article_show" />
+            <marker date="1562918030000" expanded="true" signature="12793:12827" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ExoFinalTwig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="92" column="7" lean-forward="true" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
+          <folding>
+            <marker date="1562919713000" expanded="true" signature="39:148" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="195:6353" ph="{...}" />
+            <marker date="1562919713000" expanded="true" signature="226:5327" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="244:920" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="940:1482" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="1502:2024" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="2044:2547" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="2567:3091" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="3111:3611" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="3631:4317" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="4337:4877" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="4897:5323" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="5335:5401" ph=" @Route(&quot;/home-exo-final-twig&quot;, name=&quot;home_exo_final_twig&quot;) ..." />
+            <marker date="1562919713000" expanded="true" signature="5439:5631" ph="{...}" />
+            <marker date="1562919713000" expanded="true" signature="5521:5626" ph="..." />
+            <marker date="1562919713000" expanded="false" signature="5522:5551" ph="exo-final-twig/home" />
+            <marker date="1562919713000" expanded="true" signature="5555:5625" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="5638:5710" ph=" @Route(&quot;/contact-exo-final-twig&quot;, name=&quot;contact_exo_final_twig&quot;) ..." />
+            <marker date="1562919713000" expanded="true" signature="5751:5855" ph="{...}" />
+            <marker date="1562919713000" expanded="true" signature="5778:5850" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="5779:5811" ph="exo-final-twig/contact" />
+            <marker date="1562919713000" expanded="true" signature="5815:5849" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="5861:5927" ph=" @Route(&quot;/list-exo-final-twig&quot;, name=&quot;list_exo_final_twig&quot;) ..." />
+            <marker date="1562919713000" expanded="true" signature="5965:6066" ph="{...}" />
+            <marker date="1562919713000" expanded="true" signature="5992:6061" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="5993:6022" ph="exo-final-twig/list" />
+            <marker date="1562919713000" expanded="true" signature="6026:6060" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="6072:6147" ph=" @Route(&quot;/single-exo-final-twig/{id}&quot;, name=&quot;single_exo_final_twig&quot;) ..." />
+            <marker date="1562919713000" expanded="true" signature="6190:6351" ph="{...}" />
+            <marker date="1562919713000" expanded="true" signature="6251:6346" ph="..." />
+            <marker date="1562919713000" expanded="true" signature="6252:6283" ph="exo-final-twig/single" />
+            <marker date="1562919713000" expanded="true" signature="6287:6345" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/exo-final-twig/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <marker date="1562926130000" expanded="true" signature="12:41" ph="exo-final-twig/base" />
+            <marker date="1562926130000" expanded="true" signature="47:607" ph="{% block content ...%}" />
+            <marker date="1562926130000" expanded="true" signature="101:590" ph="..." />
+            <marker date="1562926130000" expanded="true" signature="111:576" ph="{% for id, profil in profils ...%}" />
+            <marker date="1562926130000" expanded="true" signature="183:554" ph="..." />
+            <marker date="1562926130000" expanded="true" signature="479:500" ph="/single-exo-final-twig/{id}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/exo-final-twig/home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <marker date="1562927176000" expanded="true" signature="12:27" ph="exo-final-twig/home" />
+            <marker date="1562927176000" expanded="true" signature="12:41" ph="exo-final-twig/base" />
+            <marker date="1562927176000" expanded="true" signature="47:2167" ph="{% block content ...%}" />
+            <marker date="1562927176000" expanded="true" signature="101:595" ph="..." />
+            <marker date="1562927176000" expanded="true" signature="111:581" ph="{% for id, profil in lastProfiles ...%}" />
+            <marker date="1562927176000" expanded="true" signature="188:559" ph="..." />
+            <marker date="1562927176000" expanded="true" signature="484:505" ph="/single-exo-final-twig/{id}" />
+            <marker date="1562927176000" expanded="true" signature="692:1155" ph="..." />
+            <marker date="1562927176000" expanded="true" signature="1190:1653" ph="..." />
+            <marker date="1562927176000" expanded="true" signature="1688:2151" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="186" column="1" lean-forward="true" selection-start-line="186" selection-start-column="1" selection-end-line="186" selection-end-column="1" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+</head>
+<body>
+
+<header class="header">
+    <img class="exo-img-header" src="{{ asset('assets/img/black_hole_resize_md.jpg') }}" alt="">
+    <h2 class="exo-punchline">Je suis le slogan blabla</h2>
+</header>
+
+<aside class="aside">
+    <ul>
+        {% for id, profil in profils %}
+            <li class="exo-item-menu">
+                <a href="{{ path('single_exo_final_twig', {'id': id}) }}">{{ profil.name }}</a>
+            </li>
+        {% endfor %}
+
+    </ul>
+</aside>
+
+<main class="main">
+    {% block content %}
+    {% endblock %}
+</main>
+
+<footer class="footer">
+    <img class="exo-img-footer" src="{{ asset('assets/img/black_hole_resize_md.jpg') }}" alt="">
+    <img class="exo-img-footer" src="{{ asset('assets/img/black_hole_resize_md.jpg') }}" alt="">
+</footer>
+
+</body>
+</html>

@@ -10,7 +10,6 @@ use Symfony\Component\Routing\Annotation\Route;
 // pour tous les controleurs, je fais un extends de la classe AbstractController
 class HomeController extends AbstractController
 {
-
 	/**
 	 * @Route("/test3", name="home_index")
 	 */
